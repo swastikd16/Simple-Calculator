@@ -69,6 +69,16 @@ button:active {
     background-color: #d0d0d0;
 }
 
+/* Equal Button Styling */
+button[onclick="calculateResult()"] {
+    background-color: #28a745; /* Green color for equal button */
+    color: #fff;
+}
+
+button[onclick="calculateResult()"]:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
 .footer {
     margin-top: 20px;
     color: #fff;
